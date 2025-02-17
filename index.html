@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Aradhya</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------ About ------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Aradhya, an 18-year-old B.Tech student in Computer Science and Artificial Intelligence at Newton School of Technology. Currently in my first year, I am passionate about problem-solving, critical thinking, and efficient time management.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App DevelopmentX</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - current</span><br>UI/UX Design Training at ET</li>
+                        <li><span>2019-2021</span><br>Team lead at Startup LLC.</li>
+                        <li><span>2017-2019</span><br>Internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Designer</li>
+                        <li><span>2016</span><br>MBA</li>
+                        <li><span>2014</span><br>BBA</li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------ services ------------ -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+            
+        </div>
+    </div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
